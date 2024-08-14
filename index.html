@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Septian W.R</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-s"></i>
+                    <div class="logo-text">SEPTIAN W.R</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        
+            
+                        <li><a href="https://www.youtube.com/@tidakpasti-p6z">VIDIO YOUTUBE</a></li>
+                        
+                        
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="images/main_photo.jpg" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h5>Hallo Saya <span class="input">Anggota ISC</span></h5>
+                    <h1>Pawai Budaya</h1>
+                    <p> Pawai budaya/karnaval adalah pesta berwarna warni yang dipenuhi dengan kegembiraan dan suka-suka.</br>Yang dapat meghipnotis siapapun yang melihatnya karnaval juga sebagai panggung kreativitas dari seluruh pesertannya.</br>Kostum yang bermacam-macam bentuk dan warna menjadi daya tarik tersendiri bagi pelihatnya.Sekolah saya SMAN 1 NGANJUK sendiri menampilkan berbagai kreativitas dari anak-anak.</br>Gemuuruh sorakan bahagia tercurah dari masyarakat yang menontonnya tentunya saya sayangat senang sekali saat sekolah saya banyak yang senang melihatnya.</br></br>Kuliner kelezatan bukan hanya dari kostum yang megah tetapi juga dari makanan yang dijual disekitar area karnaval tersebut.</br>Ada pentol,siomay,teh poci yang ssangat nikmat saat dimakan waktu acara karnaval sambil menikmati keindahan karnaval yang sangat bagus.</br></br>Tanggal 13 Agustus menjadi momen yang sangat indah karna SMAN 1 NGANJUK menampilkan kreativitas dari siswa siswinya yang sangat luar biasa.
+                    </p>
+
+                    <div class="btn-group">
+                      
+                    </div>
+
+                    <div class="social">
+                       
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Anggota ISC","Kelas XI-3","Suka membuat robot"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+     </script>
+</body>
+</html>
